@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AmbQ CSTCR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment">fragmentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_fragment_view_pager">fragmentViewPagerActivity</string>
+    <string name="title_activity_fragment_question">Dauglas Institute</string>
+    <string name="question_basic" />
+    <string name="radio_fragment" />
+    <string name="slider_fragment" />
+    <color name="colorPrimary">#3aa111</color>
+</resources>

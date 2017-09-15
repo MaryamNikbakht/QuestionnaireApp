@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.douglas.mary.question">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+
+
+android:name="com.douglas.mary.question.MySingleton"
+        android:allowBackup="true"
+        android:icon="@drawable/clock4"
+        android:label="Douglas Institute"
+        android:roundIcon="@drawable/clock4"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.douglas.mary.question.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.douglas.mary.question.Question_Activity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

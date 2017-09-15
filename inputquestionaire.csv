@@ -1,0 +1,37 @@
+NASA_ExigenceMentale,Jusqu’à quel point  vos tâches étaient demandantes mentalement ? ,Très Faible;Très Élevé,VAS,Waketime,1
+NASA_ExigencePhysique,Jusqu’à quel point  vos tâches étaient demandantes physiquement ? ,Très Faible; Très Élevé,VAS,Waketime,1
+NASA_ExigenceTemporelle,Jusqu’à quel point étiez-vous bousculé par la cadence de vos tâches?,Très Faible;Très Élevé,VAS,Waketime,1
+NASA_Performance,Jusqu'à quel point avez-vous réussi ce qui vous a été demandé?,Très Faible;Très Élevé,VAS,Waketime,1
+NASA_Effort,Jusqu’à quel point avez-vous eu à travailler fort pour performer ?,Très Faible;Très Élevé,VAS,Waketime,1
+NASA_Frustration,Jusqu’à quel point vous sentiez-vous insécure| découragé| irrité| stressé et ennuyé?,Très Faible;Très Élevé,VAS,Waketime,1
+SamnPerelli,Indiquez votre niveau actuel de fatigue.,1=pleinement alerte| bien réveillé;2=très dynamique et réactif| mais pas au maximum;3=bien|relativement reposé;4=un peu fatigué| pas tout à fait reposé;5=assez fatigué| un peu déconcentré;6=extrêmement fatigué| très difficile de se concentrer;7=complètement épuisé| incapable de fonctionner efficacement ,Select One,Waketime,1
+AS_HeureCouche,À quelle heure êtes-vous allé vous coucher?,,Time,Start of day,0
+AS_HeureLeve,À quelle heure vous vous êtes levé?,,Time,Start of day,1
+AS_MinutesEndormir,Combien de minutes avez-vous pris pour vous endormir?,,Decimal,Bedtime,1
+AS_HeureCouche,À quelle heure êtes-vous allé vous coucher?,,Time,Bedtime,0
+AS_QualiteSommeilVas,Évaluez la qualité de votre sommeil. (Pôles: Très Mauvaise;Très Bonne),Très Mauvaise;Très Bonne,VAS,Bedtime,1
+AS_TravailSommeil,Avez-vous été dérangé au cours de votre dernière période de sommeil?,1=oui;2=non,Select One,Bedtime,1
+VigilanceVas,Indiquez votre niveau de vigilance.,Très Faible;Très Élevé,VAS,Bedtime,1
+HumeurVas,Évaluez votre humeur.,Très Mauvaise;Très Bonne,VAS,Bedtime,1
+IrritabiliteVas,Depuis votre dernier lever| quel a été votre niveau général d'irritabilité?,Très Bas;Très Élevé,VAS,Bedtime,1
+DebutQuartTravail,À quelle heure avez-vous commencé votre quart de travail?,,Time, Before/during,0
+FinQuartTravail,À quelle heure avez-vous terminé votre quart de travail?,,Time, Before/during,0
+ConditionsClimVas,À quel point les les conditions climatiques ont-elles affecté vo niveaux de fatigue?,Très faiblement;Énormément,VAS, Before/during,1
+Incidents,Rapportez avec le plus de détails possibles les incidents survenus au travail et liés à la fatigue. Par exemple: fausse manœuvre| blessure| accident de voiture|etc.,Incident relié à la fatigue,Text, Before/during,1
+CognerClous,"Combien de fois avez-vous somnolé malgré vous (""cogné des clous"") aujourd'hui?",Cogner des clous,Integer, Before/during,0
+HV_NbCigarettes,Indiquez le nombre de cigarettes consommées depuis votre dernier lever,,Integer, Before/during,1
+HV_NbBoissonsEnergie,Indiquez le nombre de boissons énergisantes (ex café| thé| redbull| etc) consommées depuis votre dernier lever,,Integer, Before/during,0
+HV_NbConsoAlcool,Indiquez le nombre de consommations d'alcool depuis votre dernier lever,,Integer, Before/during,1
+ACT_HeureEnleveActigraphe,À quelle heure avez-vous enlevé votre actigraphe ?   ,,Time,Before/during,0
+ACT_HeureRemisActigraphe,À quelle heure avez-vous remis votre actigraphe?,,Time,Before/during,1
+KSS,Indiquez votre niveau actuel de somnolence.,1=Extrêmement alerte;2=Très alerte;3=Alerte;4=Assez alerte;5=Ni alerte ni somnolent;6=Signes de somnolence;7=Somnolent| mais reste éveillé sans effort;8=Somnolent| demande des efforts pour rester éveillé;9=Très somnolent| demande de gros efforts pour rester éveillé| lutte contre le sommeil,Select one,Actigraph,1
+Appetit,Évaluez votre appétit,très faible; très élevé,VAS,Waketime,1
+PeriodeRepas,Avez-vous eu votre période de repas?,1=oui;2=non,Select One,Waketime,1
+MangéRepas,Avez-vous mangé durant votre quart de travail?,1=oui;2=non,Select One, End of flight,1
+TypeRepas,Était-ce un repas complet?,1=oui;2=non,Select One, End of flight,1
+SoloDuo,Étiez-vous en solo ou en duo?,1=Solo;2=Duo,Select One, End of flight,1
+Cour,Êtes-vous allé à la cour aujourd'hui?,1=oui;2=non,Select One, End of flight,1
+HeureCour,Si oui| à quelle heure?,,Time, End of flight,0
+NbHeuresSup,Combien d'heures supplémentaires avez-vous faites aujourd'hui?,,Decimal, End of flight,1
+ActPhyStart,À quelle heure avez-vous débuté votre activité physique?,,Time, End of flight,1
+ActPhyEnd,À quelle heure avez-vous terminé votre activité physique?,,Time, End of flight,1
